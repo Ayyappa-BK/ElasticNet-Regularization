@@ -1,5 +1,5 @@
 # ElasticNet Regularization for Housing Price Prediction
-This project explores the application of ElasticNet regularization for predicting  housing prices using the ** Ames Housing ** dataset. The notebook demonstrates preprocessing, custom model implementation, and performance evaluation using different regression techniques, with a focus on how ElasticNet combines Lasso(L1) and Ridge(L2) regularization for better predictive performance.
+This project explores the application of ElasticNet regularization for predicting  housing prices using the **Ames Housing** dataset. The notebook demonstrates preprocessing, custom model implementation, and performance evaluation using different regression techniques, with a focus on how ElasticNet combines Lasso(L1) and Ridge(L2) regularization for better predictive performance.
 
 ## Project Overview
 ### Dataset
