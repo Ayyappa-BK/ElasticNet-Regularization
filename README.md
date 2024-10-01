@@ -57,21 +57,21 @@ ElasticNet regularization is a powerful tool that helps deal with datasets where
   - ElasticNet: Combines the benefits of both, providing robust regularization and feature selection.
 
 2. What is the function of the model you have created and in what situations should it be utilized?
-   - The model is designed to address situations with multicollinearity or overfitting, using linear regression with or without regularization. It can be employed when we need to manage model complexity and avoid excessive coefficients, particularly in datasets with many dimensions.
-   - ElasticNet is especially handy when you need to strike a balance between L1 (for selecting features) and L2 (for shrinkage) regularization.
+  - The model is designed to address situations with multicollinearity or overfitting, using linear regression with or without regularization. It can be employed when we need to manage model complexity and avoid excessive coefficients, particularly in datasets with many dimensions.
+  - ElasticNet is especially handy when you need to strike a balance between L1 (for selecting features) and L2 (for shrinkage) regularization.
 
 3. What method did you use to evaluate if your model is functioning reasonably well?
-   - The Ames Housing dataset was utilized to test the models, and the R² score was utilized to assess the adequacy of the fit for both the training and test sets.
-   - Moreover, the grid search process for the ElasticNet model helped ensure the selection of the optimal hyperparameters for the dataset provided.
+  - The Ames Housing dataset was utilized to test the models, and the R² score was utilized to assess the adequacy of the fit for both the training and test sets.
+  - Moreover, the grid search process for the ElasticNet model helped ensure the selection of the optimal hyperparameters for the dataset provided.
 
 4. Which parameters have you made available to users of your implementation to adjust and optimize performance?
-   - Alpha: Regulates the overall level of regularization.
-   - Balance between L1 (Lasso) and L2 (Ridge) penalties is controlled by the L1 Ratio for ElasticNet.
+  - Alpha: Regulates the overall level of regularization.
+  - Balance between L1 (Lasso) and L2 (Ridge) penalties is controlled by the L1 Ratio for ElasticNet.
 
 5. Does your implementation struggle with certain inputs? If given additional time, would you be able to find solutions to these issues or are they essential to the model?
-   - The implementation might face difficulties with datasets that exhibit significant multicollinearity or complex missing data patterns.
-   - Although median imputation is used for handling missing values, employing more sophisticated imputation methods could enhance performance.
-   - Moreover, the code employs a set number of iterations for enhancing performance, but it may not always lead to convergence. Better results could be achieved with a more flexible stopping criterion.
+  - The implementation might face difficulties with datasets that exhibit significant multicollinearity or complex missing data patterns.
+  - Although median imputation is used for handling missing values, employing more sophisticated imputation methods could enhance performance.
+  - Moreover, the code employs a set number of iterations for enhancing performance, but it may not always lead to convergence. Better results could be achieved with a more flexible stopping criterion.
 
 ## Results
 The code in this notebook demonstrates how ElasticNet improves the model's performance by reducing overfitting and achieving a better trade-off between bias and variance. The performance is compared using the R score on both the training and testing datasets.
