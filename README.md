@@ -33,6 +33,8 @@ The implementation includes a grid search feature to find the best alpha (regula
     - Lasso (L1 Regularization)
     - Ridge (L2 Regularization)
     - ElasticNet (Best performing model from grid search)
+4. **Visualisation**:
+  - The R² scores for the training and testing sets are visualized in a bar plot for comparison.
 
 ### Installation and Setup
   1. Clone the repository:
